@@ -104,9 +104,9 @@ To deploy an IPv10 solution we first need to create an implementation of the spe
 ]{1}{12}
 	\gantttitlelist{1, ..., 12}{1}\\
 	\ganttgroup{IPv10 Implementation}{1}{6}\\
-	\ganttbar{System Design}{1}{2}\\
-	\ganttbar{Implementation}{3}{6}\\
-	\ganttbar{Testing}{3}{6}\\
+	\ganttbar[name=imp_design]{System Design}{1}{2}\\
+	\ganttbar[name=imp_testing]{Testing}{3}{6}\\
+	\ganttbar[name=imp_implementation]{Implementation}{3}{6}\\
 \end{ganttchart}
 \end{center}
 
