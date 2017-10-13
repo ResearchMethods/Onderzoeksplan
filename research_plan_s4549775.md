@@ -5,6 +5,8 @@ date: \today
 bibliography: references.bib
 fontsize: 12pt
 geometry: margin=5em
+header-includes:
+	- \usepackage{pgfgantt}
 ---
 
 Author=Hendrik Werner
@@ -86,5 +88,15 @@ IPv10 promises a superior solution to any of the previously named, in multiple a
 The research method we want to use is a case study, in which we transition (some part of) the university network from dual stack to IPv10. We will evaluate the difficulties we encounter on the way, as well as performance improvements in the categories of flexibility, efficiency, as well as ease of deployment.
 
 If this should be necessary, we will also do a survey of members of the C&CZ, to gather additional data about problems occurring after deployment, and in the maintenance phase.
+
+# Planning
+
+\begin{center}
+\begin{ganttchart}[
+	x unit = 2em,
+]{1}{12}
+	\gantttitlelist{1, ..., 12}{1}\\
+\end{ganttchart}
+\end{center}
 
 # Literature
