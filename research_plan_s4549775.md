@@ -1,5 +1,5 @@
 ---
-title: Research Idea
+title: Research Plan
 author: Hendrik Werner s4549775
 date: \today
 bibliography: references.bib
