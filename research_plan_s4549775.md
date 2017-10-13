@@ -23,6 +23,10 @@ Should the IPv10 draft be accepted and implemented as a solution to the current 
 
 # Problem
 
+IPv4 does not have sufficient address space to accommodate the number of Internet connected devices in use today [@rfc1550]. Therefore a new standard was published, called IPv6. Along with a much bigger address space, IPv6 simplifies the protocol, and corrects several design flaws in the original IPv4 specification, like the header checksums. [@rfc2460]
+
+IPv10 was recently proposed to ease IPv4 and IPv4 coexistence and transition. It claims to be superior to existing solutions. [@ipv10draft]
+
 Does IPv10 meet its declared goals?
 
 * Is the proposed solution more efficient than currently used ones?
