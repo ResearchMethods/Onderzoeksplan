@@ -87,7 +87,9 @@ IPv10 promises a superior solution to any of the previously named, in multiple a
 
 The research method we want to use is a case study, in which we transition (some part of) the university network from dual stack to IPv10. We will evaluate the difficulties we encounter on the way, as well as performance improvements in the categories of flexibility, efficiency, as well as ease of deployment.
 
-If this should be necessary, we will also do a survey of members of the C&CZ, to gather additional data about problems occurring after deployment, and in the maintenance phase.
+Currently there is no implementation of IPv10 available, so we will have to employ the "design and creation" strategy to produce an artifact, which will be an IPv10 based network layer implementation.
+
+We will also do a survey of members of the C&CZ, to gather additional data about problems occurring after deployment, and in the maintenance phase.
 
 # Planning
 
