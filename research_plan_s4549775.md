@@ -93,11 +93,17 @@ We will also do a survey of members of the C&CZ, to gather additional data about
 
 # Planning
 
+To deploy an IPv10 solution we first need to create an implementation of the spec, as there is currently none available. To this end we first design a system that fulfills the requirements of the IPv10 specification draft. Then we begin implementing that design, while continually testing that no regressions occur, and we adhere to the spec.
+
 \begin{center}
 \begin{ganttchart}[
 	x unit = 2em,
 ]{1}{12}
 	\gantttitlelist{1, ..., 12}{1}\\
+	\ganttgroup{IPv10 Implementation}{1}{6}\\
+	\ganttbar{System Design}{1}{2}\\
+	\ganttbar{Implementation}{3}{6}\\
+	\ganttbar{Testing}{3}{6}\\
 \end{ganttchart}
 \end{center}
 
