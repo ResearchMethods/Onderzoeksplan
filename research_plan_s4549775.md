@@ -97,6 +97,7 @@ To deploy an IPv10 solution we first need to create an implementation of the spe
 
 \begin{center}
 \begin{ganttchart}[
+	vgrid,
 	x unit = 2em,
 ]{1}{12}
 	\gantttitlelist{1, ..., 12}{1}\\
