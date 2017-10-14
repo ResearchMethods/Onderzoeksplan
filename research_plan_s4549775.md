@@ -43,11 +43,11 @@ Does IPv10 meet its declared goals?
 
 # Relevance
 
-IPv4 is indisputably insufficient for the current Internet landscape. This problem was recognized a long time ago and a new standard was invented called IPv6.
+IPv4 is indisputably insufficient for the current Internet landscape. This problem was recognized a long time ago and a new standard was invented called IPv6. [@rfc2460]
 
-There is the problem of transitioning from one protocol to the other though. Despite ongoing efforts the adoption of IPv6 is not nearly as universal as many had hoped. Currently there are several workarounds in use for reconciling the communication between hosts using different protocols, and to ease the transition.
+There is the problem of transitioning from one protocol to the other though. Despite ongoing efforts the adoption of IPv6 is not nearly as universal as many had hoped [@ipv6statistics]. Currently there are several workarounds in use for reconciling the communication between hosts using different protocols, and to ease the transition.
 
-The Internet is far too complex, big, and diverse to allow for a "switch day" as proposed before. The workarounds are mostly ad hoc, or complex, and don't solve many of the problems. The number of IPv6 hosts is still increasing only very slowly.
+The Internet is far too complex, big, and diverse to allow for a "switch day" as proposed before. The workarounds are mostly ad hoc, or complex, and don't solve many of the problems. The number of IPv6 hosts is still increasing only very slowly [@ipv6statistics].
 
 The IPv10 proposal claims to solve the communication and transition problems, while being easy to deploy, efficient, and flexible. It is important to test these claims in order to decide whether to officially adopt the standard, and to ultimately finally solve the problems with IPv4 that were identified decades ago. [@ipv10draft]
 
