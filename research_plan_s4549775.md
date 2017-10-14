@@ -118,6 +118,8 @@ During the whole 12 weeks, we will be writing our article. In the Gantt chart th
 	\ganttbar[name=dep_deliberation]{Deliberation}{6}{6}\\
 	\ganttbar[name=dep_deployment]{Deployment}{7}{8}\\
 	\ganttbar[name=dep_testing]{Testing}{8}{9}\\
+	\ganttlink[link type=f-s]{dep_deliberation}{dep_deployment}
+	\ganttlink[link type=f-f]{dep_deployment}{dep_testing}
 	\ganttgroup{Survey}{9}{11}\\
 	\ganttbar[name=sur_sending]{Sending out Survey}{9}{9}\\
 	\ganttbar[name=sur_answering]{Answering}{9}{10}\\
