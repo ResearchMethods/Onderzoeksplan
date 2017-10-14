@@ -119,6 +119,8 @@ During the whole 12 weeks, we will be writing our article. In the Gantt chart th
 	\ganttbar[name=sur_sending]{Sending out Survey}{9}{9}\\
 	\ganttbar[name=sur_answering]{Answering}{10}{10}\\
 	\ganttbar[name=sur_evaluation]{Evaluation}{11}{11}\\
+	\ganttlink[link type=f-s]{sur_sending}{sur_answering}
+	\ganttlink[link type=f-s]{sur_answering}{sur_evaluation}
 \end{ganttchart}
 \end{center}
 
