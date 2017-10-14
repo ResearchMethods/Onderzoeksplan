@@ -111,6 +111,9 @@ During the whole 12 weeks, we will be writing our article. In the Gantt chart th
 	\ganttbar[name=imp_design]{System Design}{1}{2}\\
 	\ganttbar[name=imp_testing]{Testing}{3}{6}\\
 	\ganttbar[name=imp_implementation]{Implementation}{3}{6}\\
+	\ganttlink[link type=f-s]{imp_design}{imp_testing}
+	\ganttlink[link type=f-s]{imp_design}{imp_implementation}
+	\ganttlink[link type=f-f]{imp_testing}{imp_implementation}
 	\ganttgroup{Deployment}{6}{9}\\
 	\ganttbar[name=dep_deliberation]{Deliberation}{6}{6}\\
 	\ganttbar[name=dep_deployment]{Deployment}{7}{8}\\
