@@ -124,6 +124,13 @@ During the whole 12 weeks, we will be writing our article. In the Gantt chart th
 	\ganttbar[name=sur_evaluation]{Evaluation}{9}{11}\\
 	\ganttlink[link type=s-s]{sur_sending}{sur_answering}
 	\ganttlink[link type=s-s]{sur_answering}{sur_evaluation}
+	\ganttgroup{Writing Article}{1}{12}\\
+	\ganttbar{Introduction}{1}{2}\\
+	\ganttbar{Design}{2}{3}\\
+	\ganttbar{Implementation}{6}{7}\\
+	\ganttbar{Deployment}{8}{9}\\
+	\ganttbar{Survey}{11}{12}\\
+	\ganttbar{General}{1}{12}
 \end{ganttchart}
 \end{center}
 
