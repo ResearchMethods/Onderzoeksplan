@@ -99,6 +99,8 @@ To deploy an IPv10 solution we first need to create an implementation of the spe
 
 When we have a working artifact, shortly before the implementation phase is finished, we can commence with the deployment stage. First we need to deliberate with the C&CZ about which part of the network to deploy IPv10 to. Ideally it should be a nonessential, but frequently used area, so that we can gather sufficient information without interrupting academic work, in case something goes wrong. Then we deploy the IPv10 implementation to this part of the network, and finally we test the subnetwork.
 
+Once we finished deploying the artifact to the chosen subnetwork, we can begin sending out surveys to C&CZ members that partook in the research. Participants can immediately begin filling them in, and they can be evaluated as soon es they are filled in and sent back.
+
 During the whole 12 weeks, we will be writing our article. In the Gantt chart this is indicated as "general" article writing. We split this up into a few subtasks, to specifically focus on certain parts of the article. For example, in week 1 and 2 we want to focus on the Introduction, Abstract, etc. We will be working on, and refining the whole article continuously, however.
 
 \begin{center}
