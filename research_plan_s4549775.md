@@ -138,6 +138,8 @@ During the whole 12 weeks, we will be writing our article. In the Gantt chart th
 	\ganttlink[link type=f-f]{art_implementation}{art_general}
 	\ganttlink[link type=f-f]{art_deployment}{art_general}
 	\ganttlink[link type=f-f]{art_survey}{art_general}
+	\ganttlink[link type=f-s]{imp_implementation}{dep_deployment}
+	\ganttlink[link type=f-s]{dep_deployment}{sur_sending}
 \end{ganttchart}
 \end{center}
 
