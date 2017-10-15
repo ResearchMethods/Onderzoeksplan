@@ -108,6 +108,10 @@ During the whole 12 weeks, we will be writing our article. In the Gantt chart th
 	\draw[->, >=latex] (\xLeft, \yUpper) -- (\xRight, \yUpper) -- (\xRight, \yLower);
 }
 
+\newganttlinktype{f-s_arc}{
+	\draw[->, >=latex] (\xLeft, \yUpper) to[out=10] (\xRight, \yLower);
+}
+
 \setganttlinklabel{f-f}{}
 \setganttlinklabel{f-s}{}
 \setganttlinklabel{s-s}{}
