@@ -108,6 +108,10 @@ During the whole 12 weeks, we will be writing our article. In the Gantt chart th
 	\draw[->, >=latex] (\xLeft, \yUpper) -- (\xRight, \yUpper) -- (\xRight, \yLower);
 }
 
+\setganttlinklabel{f-f}{}
+\setganttlinklabel{f-s}{}
+\setganttlinklabel{s-s}{}
+
 \begin{center}
 \begin{ganttchart}[
 	vgrid,
