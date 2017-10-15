@@ -127,7 +127,7 @@ During the whole 12 weeks, we will be writing our article. In the Gantt chart th
 	\ganttbar[name=imp_testing]{Testing}{3}{6}\\
 	\ganttbar[name=imp_implementation]{Implementation}{3}{6}\\
 	\ganttlink[link type=f-s]{imp_design}{imp_testing}
-	\ganttlink[link type=f-s]{imp_design}{imp_implementation}
+	\ganttlink[link type=f-s_arc]{imp_design}{imp_implementation}
 	\ganttlink[link type=f-f]{imp_testing}{imp_implementation}
 	\ganttgroup{Deployment}{6}{9}\\
 	\ganttbar[name=dep_deliberation]{Deliberation}{6}{6}\\
@@ -153,7 +153,7 @@ During the whole 12 weeks, we will be writing our article. In the Gantt chart th
 	\ganttlink[link type=f-f_rd]{art_implementation}{art_general}
 	\ganttlink[link type=f-f_rd]{art_deployment}{art_general}
 	\ganttlink[link type=f-f_rd]{art_survey}{art_general}
-	\ganttlink[link type=f-s]{imp_implementation}{dep_deployment}
+	\ganttlink[link type=f-s_arc]{imp_implementation}{dep_deployment}
 	\ganttlink[link type=f-s]{dep_deployment}{sur_sending}
 \end{ganttchart}
 \end{center}
