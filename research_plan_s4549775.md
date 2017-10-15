@@ -103,6 +103,11 @@ Once we finished deploying the artifact to the chosen subnetwork, we can begin s
 
 During the whole 12 weeks, we will be writing our article. In the Gantt chart this is indicated as "general" article writing. We split this up into a few subtasks, to specifically focus on certain parts of the article. For example, in week 1 and 2 we want to focus on the Introduction, Abstract, etc. We will be working on, and refining the whole article continuously, however.
 
+\newganttlinktype{f-f_rd}{
+	\ganttsetendanchor{on top=1}
+	\draw[->, >=latex] (\xLeft, \yUpper) -- (\xRight, \yUpper) -- (\xRight, \yLower);
+}
+
 \begin{center}
 \begin{ganttchart}[
 	vgrid,
