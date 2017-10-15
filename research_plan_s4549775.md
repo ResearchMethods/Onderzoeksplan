@@ -140,11 +140,11 @@ During the whole 12 weeks, we will be writing our article. In the Gantt chart th
 	\ganttbar[name=art_deployment]{Deployment}{8}{9}\\
 	\ganttbar[name=art_survey]{Survey}{11}{12}\\
 	\ganttbar[name=art_general]{General}{1}{12}
-	\ganttlink[link type=f-f]{art_intro}{art_general}
-	\ganttlink[link type=f-f]{art_design}{art_general}
-	\ganttlink[link type=f-f]{art_implementation}{art_general}
-	\ganttlink[link type=f-f]{art_deployment}{art_general}
-	\ganttlink[link type=f-f]{art_survey}{art_general}
+	\ganttlink[link type=f-f_rd]{art_intro}{art_general}
+	\ganttlink[link type=f-f_rd]{art_design}{art_general}
+	\ganttlink[link type=f-f_rd]{art_implementation}{art_general}
+	\ganttlink[link type=f-f_rd]{art_deployment}{art_general}
+	\ganttlink[link type=f-f_rd]{art_survey}{art_general}
 	\ganttlink[link type=f-s]{imp_implementation}{dep_deployment}
 	\ganttlink[link type=f-s]{dep_deployment}{sur_sending}
 \end{ganttchart}
