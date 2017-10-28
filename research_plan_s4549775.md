@@ -89,7 +89,9 @@ The research method we want to use is a case study, in which we transition (some
 
 Currently there is no implementation of IPv10 available, so we will have to employ the "design and creation" strategy to produce an artifact, which will be an IPv10 based network layer implementation.
 
-We will also do a survey of members of the C&CZ, to gather additional data about problems occurring after deployment, and in the maintenance phase.
+We will also do a survey of members of the C&CZ, to gather additional data about problems occurring after deployment, and in the maintenance phase. We will additionally collect information about the background of C&CZ members, to give some context, and to improve repeatability.
+
+The C&CZ is not necessarily representative of the IT field, so it is important to capture this data as well. If it, for example, solely consisted of networking experts, that is something we would want to know.
 
 # Planning
 
